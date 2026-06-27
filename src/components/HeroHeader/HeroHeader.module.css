@@ -1,0 +1,39 @@
+.inner {
+  justify-content: space-between;
+  padding-top: calc(var(--mantine-spacing-xl));
+  padding-bottom: calc(var(--mantine-spacing-xl));
+
+  gap: var(--mantine-spacing-xl);
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Outfit, var(--mantine-font-family);
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 500;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: 28px;
+  }
+}
+
+.image {
+  height: 300px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+  }
+}
+
+.imageContainer {
+  @media (min-width: $mantine-breakpoint-md) {
+    justify-content: space-between !important;
+  }
+}
+
+.highlight {
+  position: relative;
+  background-color: var(--mantine-color-blue-light);
+  border-radius: var(--mantine-radius-sm);
+  padding: 0px 5px;
+}

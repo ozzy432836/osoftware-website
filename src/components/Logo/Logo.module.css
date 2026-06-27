@@ -1,0 +1,10 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+}
+
+.scale-down {
+  transform: scale(0.7);
+  filter: grayscale(1);
+}
